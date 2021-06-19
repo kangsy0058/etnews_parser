@@ -13,7 +13,6 @@ etnews rss 피드를 파싱하는 파서입니다.
 >- error_log.txt : error log file 
 >- json_data : parsing data folder
 >   - date.json : news data
->- category_parser : parsing by category
 
 ## main.py
 - 실행파일 입니다.
@@ -28,8 +27,3 @@ etnews rss 피드를 파싱하는 파서입니다.
 ## error_log.txt
 - 파싱과정중 일어난 로그들을 저장하는 파일입니다. 
 - 전체 로그들을 파일하나에 합쳐서 보관합니다.
-
-## category_parser
-- 카테고리별로 파싱을 해줍니다.
-- 일자별로 새롭게 파일이 생성되는 방식이아닌 실행시킬때마다 파일이 갱신되는 방식입니다.
-- Category : broadcast, economy, electronics, industry, matarial, software, today, today_recommanded
